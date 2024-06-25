@@ -1,0 +1,40 @@
+const users = [
+  {
+    id: 1,
+    firstName: "John",
+    lastName: "Doe",
+    email: "john.doe@example.com",
+    age: 30,
+    address: "123 Main St, Anytown, USA",
+    phone: "555-1234",
+    isActive: true,
+    createdAt: "2023-01-15",
+    lastLogin: "2024-06-24",
+  },
+  {
+    id: 2,
+    firstName: "Jane",
+    lastName: "Smith",
+    email: "jane.smith@example.com",
+    age: 25,
+    address: "456 Oak St, Othertown, USA",
+    phone: "555-5678",
+    isActive: false,
+    createdAt: "2022-05-20",
+    lastLogin: "2024-06-20",
+  },
+  {
+    id: 3,
+    firstName: "Alice",
+    lastName: "Johnson",
+    email: "alice.johnson@example.com",
+    age: 28,
+    address: "789 Pine St, Sometown, USA",
+    phone: "555-9876",
+    isActive: true,
+    createdAt: "2021-11-10",
+    lastLogin: "2024-06-23",
+  },
+];
+
+module.exports = users;
